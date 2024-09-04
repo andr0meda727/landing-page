@@ -38,7 +38,8 @@ a {
 }
 
 .navbar,
-.header {
+.header,
+footer {
     background-color: #1F2937;
 }
 
@@ -63,6 +64,7 @@ a {
 .header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 50px 0;
 }
 .header h1 {
@@ -146,7 +148,7 @@ button {
     display: flex;
     gap: 400px;
     background-color: #3882F6;
-    margin-top: 50px;
+    margin-top: 75px;
     padding: 40px 75px;
     border-radius: 8px;
     border: none;
@@ -171,4 +173,19 @@ button {
 .call-to-action p {
     font-weight: 350;
     color: #e1e4e0;
+}
+
+footer {
+    margin-top: 75px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
 }
